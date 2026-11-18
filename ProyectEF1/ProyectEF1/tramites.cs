@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProyectEF1
+{
+    [Serializable]
+    //crea clase tramites con atributos del alumno y profesor
+    public class tramites
+    {
+        public string CodigoAlumno { get; set; }
+        public string DNI { get; set; }
+        public string NombreAlumno { get; set; }
+        public string ApellidosAlumno { get; set;}
+        public string TutorProfesor { get; set; }
+        public string Curso { get; set; }
+        public string Grado { get; set; }
+        public string Seccion { get; set; }
+        public double Notas { get; set; }   
+
+        public tramites(string codigoalumno,string dni, string nombrealumno,string apellidosalumno,string tutorprofesor, string grado, string seccion, double notas, string curso)
+        {
+            CodigoAlumno = codigoalumno;
+            DNI = dni;
+            NombreAlumno = nombrealumno;
+            ApellidosAlumno = apellidosalumno;
+            TutorProfesor = tutorprofesor;
+            Curso = curso;
+            Grado = grado;
+            Seccion = seccion;
+            Notas = notas;
+        }
+    }
+}

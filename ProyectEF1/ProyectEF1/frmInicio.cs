@@ -12,9 +12,27 @@ namespace ProyectEF1
 {
     public partial class frmInicio : Form
     {
+        gestortramites gestor = new gestortramites();
         public frmInicio()
         {
             InitializeComponent();
+        }
+
+        private void pnl_Menu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnRegistrar_Click(object sender, EventArgs e)
+        {
+            frmRegistrar f = new frmRegistrar(gestor);
+            f.ShowDialog();
+        }
+
+        private void btnMostrar_Click(object sender, EventArgs e)
+        {
+            frmLista f = new frmLista(gestor);
+            f.ShowDialog();
         }
     }
 }

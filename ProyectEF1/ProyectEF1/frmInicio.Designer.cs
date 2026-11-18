@@ -28,129 +28,157 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_Incio = new System.Windows.Forms.Button();
-            this.btn_Registrar = new System.Windows.Forms.Button();
-            this.btn_Buscar = new System.Windows.Forms.Button();
-            this.btn_Modificar = new System.Windows.Forms.Button();
-            this.btn_Eliminar = new System.Windows.Forms.Button();
-            this.btn_Mostrar = new System.Windows.Forms.Button();
-            this.btn_MayorNota = new System.Windows.Forms.Button();
-            this.btn_Imprimir = new System.Windows.Forms.Button();
-            this.btn_Archivos = new System.Windows.Forms.Button();
+            this.btnIncio = new System.Windows.Forms.Button();
+            this.btnRegistrar = new System.Windows.Forms.Button();
+            this.btnBuscar = new System.Windows.Forms.Button();
+            this.btnModificar = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.btnMostrar = new System.Windows.Forms.Button();
+            this.btnMayorNota = new System.Windows.Forms.Button();
+            this.btnImprimir = new System.Windows.Forms.Button();
+            this.btnArchivos = new System.Windows.Forms.Button();
+            this.pnl_Menu = new System.Windows.Forms.Panel();
+            this.pnl_Menu.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btn_Incio
+            // btnIncio
             // 
-            this.btn_Incio.Location = new System.Drawing.Point(12, 131);
-            this.btn_Incio.Name = "btn_Incio";
-            this.btn_Incio.Size = new System.Drawing.Size(149, 47);
-            this.btn_Incio.TabIndex = 0;
-            this.btn_Incio.Text = "Incio";
-            this.btn_Incio.UseVisualStyleBackColor = true;
+            this.btnIncio.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIncio.Location = new System.Drawing.Point(12, 148);
+            this.btnIncio.Name = "btnIncio";
+            this.btnIncio.Size = new System.Drawing.Size(195, 50);
+            this.btnIncio.TabIndex = 0;
+            this.btnIncio.Text = "Incio";
+            this.btnIncio.UseVisualStyleBackColor = true;
             // 
-            // btn_Registrar
+            // btnRegistrar
             // 
-            this.btn_Registrar.Location = new System.Drawing.Point(12, 184);
-            this.btn_Registrar.Name = "btn_Registrar";
-            this.btn_Registrar.Size = new System.Drawing.Size(149, 47);
-            this.btn_Registrar.TabIndex = 1;
-            this.btn_Registrar.Text = "Registrar alumno";
-            this.btn_Registrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrar.Location = new System.Drawing.Point(12, 204);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(195, 50);
+            this.btnRegistrar.TabIndex = 1;
+            this.btnRegistrar.Text = "Registrar alumno";
+            this.btnRegistrar.UseVisualStyleBackColor = true;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
-            // btn_Buscar
+            // btnBuscar
             // 
-            this.btn_Buscar.Location = new System.Drawing.Point(12, 290);
-            this.btn_Buscar.Name = "btn_Buscar";
-            this.btn_Buscar.Size = new System.Drawing.Size(149, 47);
-            this.btn_Buscar.TabIndex = 2;
-            this.btn_Buscar.Text = "Buscar alumno";
-            this.btn_Buscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscar.Location = new System.Drawing.Point(12, 317);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(195, 50);
+            this.btnBuscar.TabIndex = 2;
+            this.btnBuscar.Text = "Buscar alumno";
+            this.btnBuscar.UseVisualStyleBackColor = true;
             // 
-            // btn_Modificar
+            // btnModificar
             // 
-            this.btn_Modificar.Location = new System.Drawing.Point(12, 343);
-            this.btn_Modificar.Name = "btn_Modificar";
-            this.btn_Modificar.Size = new System.Drawing.Size(149, 47);
-            this.btn_Modificar.TabIndex = 3;
-            this.btn_Modificar.Text = "Modificar registro";
-            this.btn_Modificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificar.Location = new System.Drawing.Point(12, 373);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(195, 50);
+            this.btnModificar.TabIndex = 3;
+            this.btnModificar.Text = "Modificar registro";
+            this.btnModificar.UseVisualStyleBackColor = true;
             // 
-            // btn_Eliminar
+            // btnEliminar
             // 
-            this.btn_Eliminar.Location = new System.Drawing.Point(12, 396);
-            this.btn_Eliminar.Name = "btn_Eliminar";
-            this.btn_Eliminar.Size = new System.Drawing.Size(149, 47);
-            this.btn_Eliminar.TabIndex = 4;
-            this.btn_Eliminar.Text = "Eliminar registro";
-            this.btn_Eliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.Location = new System.Drawing.Point(12, 429);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(195, 50);
+            this.btnEliminar.TabIndex = 4;
+            this.btnEliminar.Text = "Eliminar registro";
+            this.btnEliminar.UseVisualStyleBackColor = true;
             // 
-            // btn_Mostrar
+            // btnMostrar
             // 
-            this.btn_Mostrar.Location = new System.Drawing.Point(12, 237);
-            this.btn_Mostrar.Name = "btn_Mostrar";
-            this.btn_Mostrar.Size = new System.Drawing.Size(149, 47);
-            this.btn_Mostrar.TabIndex = 5;
-            this.btn_Mostrar.Text = "Lista de alumnos";
-            this.btn_Mostrar.UseVisualStyleBackColor = true;
+            this.btnMostrar.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMostrar.Location = new System.Drawing.Point(12, 260);
+            this.btnMostrar.Name = "btnMostrar";
+            this.btnMostrar.Size = new System.Drawing.Size(195, 50);
+            this.btnMostrar.TabIndex = 5;
+            this.btnMostrar.Text = "Lista de alumnos";
+            this.btnMostrar.UseVisualStyleBackColor = true;
+            this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click);
             // 
-            // btn_MayorNota
+            // btnMayorNota
             // 
-            this.btn_MayorNota.Location = new System.Drawing.Point(12, 449);
-            this.btn_MayorNota.Name = "btn_MayorNota";
-            this.btn_MayorNota.Size = new System.Drawing.Size(149, 47);
-            this.btn_MayorNota.TabIndex = 6;
-            this.btn_MayorNota.Text = "Mayor nota";
-            this.btn_MayorNota.UseVisualStyleBackColor = true;
+            this.btnMayorNota.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMayorNota.Location = new System.Drawing.Point(12, 485);
+            this.btnMayorNota.Name = "btnMayorNota";
+            this.btnMayorNota.Size = new System.Drawing.Size(195, 50);
+            this.btnMayorNota.TabIndex = 6;
+            this.btnMayorNota.Text = "Mayor nota";
+            this.btnMayorNota.UseVisualStyleBackColor = true;
             // 
-            // btn_Imprimir
+            // btnImprimir
             // 
-            this.btn_Imprimir.Location = new System.Drawing.Point(12, 502);
-            this.btn_Imprimir.Name = "btn_Imprimir";
-            this.btn_Imprimir.Size = new System.Drawing.Size(149, 47);
-            this.btn_Imprimir.TabIndex = 7;
-            this.btn_Imprimir.Text = "Impresion de tramite";
-            this.btn_Imprimir.UseVisualStyleBackColor = true;
+            this.btnImprimir.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnImprimir.Location = new System.Drawing.Point(12, 542);
+            this.btnImprimir.Name = "btnImprimir";
+            this.btnImprimir.Size = new System.Drawing.Size(195, 50);
+            this.btnImprimir.TabIndex = 7;
+            this.btnImprimir.Text = "Impresion de tramite";
+            this.btnImprimir.UseVisualStyleBackColor = true;
             // 
-            // btn_Archivos
+            // btnArchivos
             // 
-            this.btn_Archivos.Location = new System.Drawing.Point(12, 555);
-            this.btn_Archivos.Name = "btn_Archivos";
-            this.btn_Archivos.Size = new System.Drawing.Size(149, 47);
-            this.btn_Archivos.TabIndex = 8;
-            this.btn_Archivos.Text = "Archivos";
-            this.btn_Archivos.UseVisualStyleBackColor = true;
+            this.btnArchivos.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnArchivos.Location = new System.Drawing.Point(12, 598);
+            this.btnArchivos.Name = "btnArchivos";
+            this.btnArchivos.Size = new System.Drawing.Size(195, 50);
+            this.btnArchivos.TabIndex = 8;
+            this.btnArchivos.Text = "Archivos";
+            this.btnArchivos.UseVisualStyleBackColor = true;
+            // 
+            // pnl_Menu
+            // 
+            this.pnl_Menu.BackColor = System.Drawing.Color.LimeGreen;
+            this.pnl_Menu.Controls.Add(this.btnArchivos);
+            this.pnl_Menu.Controls.Add(this.btnIncio);
+            this.pnl_Menu.Controls.Add(this.btnImprimir);
+            this.pnl_Menu.Controls.Add(this.btnRegistrar);
+            this.pnl_Menu.Controls.Add(this.btnMayorNota);
+            this.pnl_Menu.Controls.Add(this.btnBuscar);
+            this.pnl_Menu.Controls.Add(this.btnMostrar);
+            this.pnl_Menu.Controls.Add(this.btnModificar);
+            this.pnl_Menu.Controls.Add(this.btnEliminar);
+            this.pnl_Menu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnl_Menu.Location = new System.Drawing.Point(0, 0);
+            this.pnl_Menu.Name = "pnl_Menu";
+            this.pnl_Menu.Size = new System.Drawing.Size(220, 653);
+            this.pnl_Menu.TabIndex = 9;
+            this.pnl_Menu.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_Menu_Paint);
             // 
             // frmInicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(982, 653);
-            this.Controls.Add(this.btn_Archivos);
-            this.Controls.Add(this.btn_Imprimir);
-            this.Controls.Add(this.btn_MayorNota);
-            this.Controls.Add(this.btn_Mostrar);
-            this.Controls.Add(this.btn_Eliminar);
-            this.Controls.Add(this.btn_Modificar);
-            this.Controls.Add(this.btn_Buscar);
-            this.Controls.Add(this.btn_Registrar);
-            this.Controls.Add(this.btn_Incio);
+            this.ClientSize = new System.Drawing.Size(1082, 653);
+            this.Controls.Add(this.pnl_Menu);
+            this.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MinimumSize = new System.Drawing.Size(1000, 700);
             this.Name = "frmInicio";
             this.Text = "Estrellitas de fatima";
+            this.pnl_Menu.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btn_Incio;
-        private System.Windows.Forms.Button btn_Registrar;
-        private System.Windows.Forms.Button btn_Buscar;
-        private System.Windows.Forms.Button btn_Modificar;
-        private System.Windows.Forms.Button btn_Eliminar;
-        private System.Windows.Forms.Button btn_Mostrar;
-        private System.Windows.Forms.Button btn_MayorNota;
-        private System.Windows.Forms.Button btn_Imprimir;
-        private System.Windows.Forms.Button btn_Archivos;
+        private System.Windows.Forms.Button btnIncio;
+        private System.Windows.Forms.Button btnRegistrar;
+        private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.Button btnModificar;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.Button btnMostrar;
+        private System.Windows.Forms.Button btnMayorNota;
+        private System.Windows.Forms.Button btnImprimir;
+        private System.Windows.Forms.Button btnArchivos;
+        private System.Windows.Forms.Panel pnl_Menu;
     }
 }
 

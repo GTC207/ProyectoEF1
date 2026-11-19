@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{598B9796-94EE-4677-8671-D54867EA1154}|ProyectEF1\\ProyectEF1.csproj|c:\\users\\admin\\documents\\proyectoef1\\proyectef1\\proyectef1\\frmregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{598B9796-94EE-4677-8671-D54867EA1154}|ProyectEF1\\ProyectEF1.csproj|solutionrelative:proyectef1\\frmregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{598B9796-94EE-4677-8671-D54867EA1154}|ProyectEF1\\ProyectEF1.csproj|c:\\users\\admin\\documents\\proyectoef1\\proyectef1\\proyectef1\\frmbuscar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{598B9796-94EE-4677-8671-D54867EA1154}|ProyectEF1\\ProyectEF1.csproj|solutionrelative:proyectef1\\frmbuscar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{598B9796-94EE-4677-8671-D54867EA1154}|ProyectEF1\\ProyectEF1.csproj|c:\\users\\admin\\documents\\proyectoef1\\proyectef1\\proyectef1\\frmregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{598B9796-94EE-4677-8671-D54867EA1154}|ProyectEF1\\ProyectEF1.csproj|solutionrelative:proyectef1\\frmregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{598B9796-94EE-4677-8671-D54867EA1154}|ProyectEF1\\ProyectEF1.csproj|c:\\users\\admin\\documents\\proyectoef1\\proyectef1\\proyectef1\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{598B9796-94EE-4677-8671-D54867EA1154}|ProyectEF1\\ProyectEF1.csproj|solutionrelative:proyectef1\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{598B9796-94EE-4677-8671-D54867EA1154}|ProyectEF1\\ProyectEF1.csproj|c:\\users\\admin\\documents\\proyectoef1\\proyectef1\\proyectef1\\frmbuscar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598B9796-94EE-4677-8671-D54867EA1154}|ProyectEF1\\ProyectEF1.csproj|solutionrelative:proyectef1\\frmbuscar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{598B9796-94EE-4677-8671-D54867EA1154}|ProyectEF1\\ProyectEF1.csproj|c:\\users\\admin\\documents\\proyectoef1\\proyectef1\\proyectef1\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{598B9796-94EE-4677-8671-D54867EA1154}|ProyectEF1\\ProyectEF1.csproj|solutionrelative:proyectef1\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{598B9796-94EE-4677-8671-D54867EA1154}|ProyectEF1\\ProyectEF1.csproj|c:\\users\\admin\\documents\\proyectoef1\\proyectef1\\proyectef1\\frmlista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{598B9796-94EE-4677-8671-D54867EA1154}|ProyectEF1\\ProyectEF1.csproj|solutionrelative:proyectef1\\frmlista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{598B9796-94EE-4677-8671-D54867EA1154}|ProyectEF1\\ProyectEF1.csproj|c:\\users\\admin\\documents\\proyectoef1\\proyectef1\\proyectef1\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{598B9796-94EE-4677-8671-D54867EA1154}|ProyectEF1\\ProyectEF1.csproj|solutionrelative:proyectef1\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{598B9796-94EE-4677-8671-D54867EA1154}|ProyectEF1\\ProyectEF1.csproj|c:\\users\\admin\\documents\\proyectoef1\\proyectef1\\proyectef1\\frmlista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{598B9796-94EE-4677-8671-D54867EA1154}|ProyectEF1\\ProyectEF1.csproj|solutionrelative:proyectef1\\frmlista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{598B9796-94EE-4677-8671-D54867EA1154}|ProyectEF1\\ProyectEF1.csproj|c:\\users\\admin\\documents\\proyectoef1\\proyectef1\\proyectef1\\frmregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{598B9796-94EE-4677-8671-D54867EA1154}|ProyectEF1\\ProyectEF1.csproj|solutionrelative:proyectef1\\frmregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{598B9796-94EE-4677-8671-D54867EA1154}|ProyectEF1\\ProyectEF1.csproj|c:\\users\\admin\\documents\\proyectoef1\\proyectef1\\proyectef1\\gestortramites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,98 +33,83 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "DockedWidth": 189,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmInicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\frmInicio.cs",
-              "RelativeDocumentMoniker": "ProyectEF1\\frmInicio.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\frmInicio.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ProyectEF1\\frmInicio.cs [Dise\u00F1o]",
+              "DocumentIndex": 5,
+              "Title": "gestortramites.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\gestortramites.cs",
+              "RelativeDocumentMoniker": "ProyectEF1\\gestortramites.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\gestortramites.cs",
+              "RelativeToolTip": "ProyectEF1\\gestortramites.cs",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAcwKUBAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-18T21:00:01.476Z",
-              "IsPinned": true,
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-11-19T05:08:32.313Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "frmRegistrar.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\frmRegistrar.cs",
               "RelativeDocumentMoniker": "ProyectEF1\\frmRegistrar.cs",
               "ToolTip": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\frmRegistrar.cs [Dise\u00F1o]",
               "RelativeToolTip": "ProyectEF1\\frmRegistrar.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-18T22:40:15.842Z",
-              "IsPinned": true,
+              "WhenOpened": "2026-11-19T05:07:18.996Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "gestortramites.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\gestortramites.cs",
-              "RelativeDocumentMoniker": "ProyectEF1\\gestortramites.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\gestortramites.cs",
-              "RelativeToolTip": "ProyectEF1\\gestortramites.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAADwv7oAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-18T23:43:45.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmLista.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\frmLista.cs",
-              "RelativeDocumentMoniker": "ProyectEF1\\frmLista.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\frmLista.cs",
-              "RelativeToolTip": "ProyectEF1\\frmLista.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAtwCcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-18T23:43:03.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmLista.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\frmLista.cs",
-              "RelativeDocumentMoniker": "ProyectEF1\\frmLista.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\frmLista.cs [Dise\u00F1o]",
-              "RelativeToolTip": "ProyectEF1\\frmLista.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-18T23:36:31.833Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "frmInicio.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\frmInicio.cs",
               "RelativeDocumentMoniker": "ProyectEF1\\frmInicio.cs",
               "ToolTip": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\frmInicio.cs",
               "RelativeToolTip": "ProyectEF1\\frmInicio.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBwAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAADgvxsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-18T23:25:11.802Z",
+              "WhenOpened": "2026-11-19T05:04:04.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmInicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\frmInicio.cs",
+              "RelativeDocumentMoniker": "ProyectEF1\\frmInicio.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\frmInicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectEF1\\frmInicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T05:04:02.263Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmBuscar.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\frmBuscar.cs",
+              "RelativeDocumentMoniker": "ProyectEF1\\frmBuscar.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\frmBuscar.cs",
+              "RelativeToolTip": "ProyectEF1\\frmBuscar.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwDMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-19T04:50:30.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmRegistrar.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\frmRegistrar.cs",
-              "RelativeDocumentMoniker": "ProyectEF1\\frmRegistrar.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\frmRegistrar.cs",
-              "RelativeToolTip": "ProyectEF1\\frmRegistrar.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAhwBwAAAANAAAAAAAAAA==",
+              "Title": "frmBuscar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\frmBuscar.cs",
+              "RelativeDocumentMoniker": "ProyectEF1\\frmBuscar.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\ProyectoEF1\\ProyectEF1\\ProyectEF1\\frmBuscar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectEF1\\frmBuscar.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-18T22:48:18.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-19T04:40:33.845Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

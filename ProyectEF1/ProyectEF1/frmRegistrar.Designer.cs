@@ -54,7 +54,7 @@
             // 
             this.lblTitutlo.AutoSize = true;
             this.lblTitutlo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitutlo.Location = new System.Drawing.Point(83, 9);
+            this.lblTitutlo.Location = new System.Drawing.Point(96, 9);
             this.lblTitutlo.Name = "lblTitutlo";
             this.lblTitutlo.Size = new System.Drawing.Size(285, 29);
             this.lblTitutlo.TabIndex = 0;
@@ -63,7 +63,7 @@
             // txtCodigo
             // 
             this.txtCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCodigo.Location = new System.Drawing.Point(249, 91);
+            this.txtCodigo.Location = new System.Drawing.Point(264, 90);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(214, 26);
             this.txtCodigo.TabIndex = 1;
@@ -71,7 +71,7 @@
             // txtDni
             // 
             this.txtDni.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDni.Location = new System.Drawing.Point(249, 135);
+            this.txtDni.Location = new System.Drawing.Point(264, 134);
             this.txtDni.Name = "txtDni";
             this.txtDni.Size = new System.Drawing.Size(214, 26);
             this.txtDni.TabIndex = 2;
@@ -79,7 +79,7 @@
             // txtNombre
             // 
             this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.Location = new System.Drawing.Point(249, 173);
+            this.txtNombre.Location = new System.Drawing.Point(264, 172);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(214, 26);
             this.txtNombre.TabIndex = 3;
@@ -87,7 +87,7 @@
             // txtApellidos
             // 
             this.txtApellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellidos.Location = new System.Drawing.Point(249, 221);
+            this.txtApellidos.Location = new System.Drawing.Point(264, 220);
             this.txtApellidos.Name = "txtApellidos";
             this.txtApellidos.Size = new System.Drawing.Size(214, 26);
             this.txtApellidos.TabIndex = 4;
@@ -95,7 +95,7 @@
             // txtTutor
             // 
             this.txtTutor.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTutor.Location = new System.Drawing.Point(249, 265);
+            this.txtTutor.Location = new System.Drawing.Point(264, 264);
             this.txtTutor.Name = "txtTutor";
             this.txtTutor.Size = new System.Drawing.Size(214, 26);
             this.txtTutor.TabIndex = 5;
@@ -103,7 +103,7 @@
             // txtCurso
             // 
             this.txtCurso.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCurso.Location = new System.Drawing.Point(249, 307);
+            this.txtCurso.Location = new System.Drawing.Point(264, 306);
             this.txtCurso.Name = "txtCurso";
             this.txtCurso.Size = new System.Drawing.Size(214, 26);
             this.txtCurso.TabIndex = 6;
@@ -111,7 +111,7 @@
             // txtGrado
             // 
             this.txtGrado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGrado.Location = new System.Drawing.Point(249, 358);
+            this.txtGrado.Location = new System.Drawing.Point(264, 357);
             this.txtGrado.Name = "txtGrado";
             this.txtGrado.Size = new System.Drawing.Size(214, 26);
             this.txtGrado.TabIndex = 7;
@@ -119,7 +119,7 @@
             // txtSeccion
             // 
             this.txtSeccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSeccion.Location = new System.Drawing.Point(249, 408);
+            this.txtSeccion.Location = new System.Drawing.Point(264, 407);
             this.txtSeccion.Name = "txtSeccion";
             this.txtSeccion.Size = new System.Drawing.Size(214, 26);
             this.txtSeccion.TabIndex = 8;
@@ -127,7 +127,7 @@
             // txtNota
             // 
             this.txtNota.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNota.Location = new System.Drawing.Point(249, 452);
+            this.txtNota.Location = new System.Drawing.Point(264, 451);
             this.txtNota.Name = "txtNota";
             this.txtNota.Size = new System.Drawing.Size(214, 26);
             this.txtNota.TabIndex = 9;
@@ -236,7 +236,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(540, 591);
+            this.ClientSize = new System.Drawing.Size(532, 600);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.lblNota);
             this.Controls.Add(this.lblSeccion);

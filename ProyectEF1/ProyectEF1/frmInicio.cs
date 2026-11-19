@@ -34,5 +34,11 @@ namespace ProyectEF1
             frmLista f = new frmLista(gestor);
             f.ShowDialog();
         }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            frmBuscar f = new frmBuscar(gestor);
+            f.ShowDialog();
+        }
     }
 }

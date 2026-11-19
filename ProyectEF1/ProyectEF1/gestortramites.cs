@@ -369,7 +369,8 @@ namespace ProyectEF1
             }
         }
         // :)
-        public void EliminarRegistro()
+        /*
+         public void EliminarRegistro()
         {
             string respuesta;
             Console.Clear();
@@ -409,6 +410,18 @@ namespace ProyectEF1
                 }
             }
         }
+         */ // eliminar
+
+        public void Eliminar(int indice)
+        {
+            for(int i = indice; i < cantidad - 1; i++)
+            {
+                Tramites[i] = Tramites[i + 1];
+            }
+            Tramites[cantidad - 1] = null;
+            cantidad--;
+        }
+
         public void BuscarPorCodigoAlumno(string codigo)
         {
             string respuesta;

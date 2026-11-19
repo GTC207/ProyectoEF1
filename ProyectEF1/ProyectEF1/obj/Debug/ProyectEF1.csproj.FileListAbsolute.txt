@@ -11,3 +11,5 @@ C:\Users\ADMIN\Documents\ProyectoEF1\ProyectEF1\ProyectEF1\obj\Debug\ProyectEF1.
 C:\Users\ADMIN\Documents\ProyectoEF1\ProyectEF1\ProyectEF1\obj\Debug\ProyectEF1.frmRegistrar.resources
 C:\Users\ADMIN\Documents\ProyectoEF1\ProyectEF1\ProyectEF1\obj\Debug\ProyectEF1.frmLista.resources
 C:\Users\ADMIN\Documents\ProyectoEF1\ProyectEF1\ProyectEF1\obj\Debug\ProyectEF1.frmBuscar.resources
+C:\Users\ADMIN\Documents\ProyectoEF1\ProyectEF1\ProyectEF1\obj\Debug\ProyectEF1.frmEliminar.resources
+C:\Users\ADMIN\Documents\ProyectoEF1\ProyectEF1\ProyectEF1\obj\Debug\ProyectEF1.frmModificar.resources

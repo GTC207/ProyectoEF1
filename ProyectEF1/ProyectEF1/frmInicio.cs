@@ -40,5 +40,11 @@ namespace ProyectEF1
             frmBuscar f = new frmBuscar(gestor);
             f.ShowDialog();
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            frmEliminar f = new frmEliminar(gestor);
+            f.ShowDialog();
+        }
     }
 }

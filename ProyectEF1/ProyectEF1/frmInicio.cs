@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace ProyectEF1
 {
@@ -16,6 +17,10 @@ namespace ProyectEF1
         public frmInicio()
         {
             InitializeComponent();
+            if (File.Exists("tramites.bin"))
+            {
+                gestor.LeerBinario("tramites.bin");
+            }
         }
 
         private void pnl_Menu_Paint(object sender, PaintEventArgs e)
@@ -56,6 +61,12 @@ namespace ProyectEF1
         private void btnMayorNota_Click(object sender, EventArgs e)
         {
             frmMayorNota f = new frmMayorNota(gestor);
+            f.ShowDialog();
+        }
+
+        private void btnImprimir_Click(object sender, EventArgs e)
+        {
+            frmImpresion f = new frmImpresion(gestor);
             f.ShowDialog();
         }
     }

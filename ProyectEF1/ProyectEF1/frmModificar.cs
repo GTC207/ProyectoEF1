@@ -98,7 +98,7 @@ namespace ProyectEF1
             string tutor = gestor.Formateo(txtTutor.Text);
 
             gestor.Tramites[indice] = new tramites(txtCodigo.Text, txtDni.Text, nombre, apellidos, tutor, txtGrado.Text.ToLower(), txtSeccion.Text.ToUpper(), nota, curso);
-
+            gestor.GuardarTodo();
             MessageBox.Show("Registro modificado");
             indice = -1;
         }

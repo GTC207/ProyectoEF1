@@ -38,6 +38,7 @@
             this.Grado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Seccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nota = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lblTitulo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMayor)).BeginInit();
             this.SuspendLayout();
             // 
@@ -135,16 +136,28 @@
             this.Nota.ReadOnly = true;
             this.Nota.Width = 125;
             // 
+            // lblTitulo
+            // 
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Location = new System.Drawing.Point(522, 42);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(184, 29);
+            this.lblTitulo.TabIndex = 2;
+            this.lblTitulo.Text = "MAYOR NOTA";
+            // 
             // frmMayorNota
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1207, 450);
+            this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.dgvMayor);
             this.Name = "frmMayorNota";
             this.Text = "frmMayorNota";
             ((System.ComponentModel.ISupportInitialize)(this.dgvMayor)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -160,5 +173,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Grado;
         private System.Windows.Forms.DataGridViewTextBoxColumn Seccion;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nota;
+        private System.Windows.Forms.Label lblTitulo;
     }
 }

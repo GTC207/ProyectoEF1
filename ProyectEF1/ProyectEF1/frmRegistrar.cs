@@ -80,6 +80,7 @@ namespace ProyectEF1
 
             if (gestor.Agregar(t))
             {
+                gestor.GuardarTodo();
                 MessageBox.Show("Trámite registrado");
                 txtCodigo.Clear();
                 txtDni.Clear();

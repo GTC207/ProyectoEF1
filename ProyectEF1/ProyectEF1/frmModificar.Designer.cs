@@ -51,11 +51,13 @@
             this.txtDni = new System.Windows.Forms.TextBox();
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.btnGuardar = new System.Windows.Forms.Button();
+            this.lblBuscar = new System.Windows.Forms.Label();
+            this.lblTitulo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtBuscarCodigo
             // 
-            this.txtBuscarCodigo.Location = new System.Drawing.Point(134, 82);
+            this.txtBuscarCodigo.Location = new System.Drawing.Point(96, 183);
             this.txtBuscarCodigo.Name = "txtBuscarCodigo";
             this.txtBuscarCodigo.Size = new System.Drawing.Size(138, 22);
             this.txtBuscarCodigo.TabIndex = 0;
@@ -68,9 +70,9 @@
             // 
             // btnCargar
             // 
-            this.btnCargar.Location = new System.Drawing.Point(134, 187);
+            this.btnCargar.Location = new System.Drawing.Point(80, 229);
             this.btnCargar.Name = "btnCargar";
-            this.btnCargar.Size = new System.Drawing.Size(116, 27);
+            this.btnCargar.Size = new System.Drawing.Size(169, 37);
             this.btnCargar.TabIndex = 2;
             this.btnCargar.Text = "BUSCAR";
             this.btnCargar.UseVisualStyleBackColor = true;
@@ -169,7 +171,7 @@
             // txtNota
             // 
             this.txtNota.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNota.Location = new System.Drawing.Point(529, 397);
+            this.txtNota.Location = new System.Drawing.Point(565, 395);
             this.txtNota.Name = "txtNota";
             this.txtNota.Size = new System.Drawing.Size(214, 24);
             this.txtNota.TabIndex = 28;
@@ -177,7 +179,7 @@
             // txtSeccion
             // 
             this.txtSeccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSeccion.Location = new System.Drawing.Point(529, 353);
+            this.txtSeccion.Location = new System.Drawing.Point(565, 351);
             this.txtSeccion.Name = "txtSeccion";
             this.txtSeccion.Size = new System.Drawing.Size(214, 24);
             this.txtSeccion.TabIndex = 27;
@@ -185,7 +187,7 @@
             // txtGrado
             // 
             this.txtGrado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGrado.Location = new System.Drawing.Point(529, 303);
+            this.txtGrado.Location = new System.Drawing.Point(565, 301);
             this.txtGrado.Name = "txtGrado";
             this.txtGrado.Size = new System.Drawing.Size(214, 24);
             this.txtGrado.TabIndex = 26;
@@ -193,7 +195,7 @@
             // txtCurso
             // 
             this.txtCurso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCurso.Location = new System.Drawing.Point(529, 252);
+            this.txtCurso.Location = new System.Drawing.Point(565, 250);
             this.txtCurso.Name = "txtCurso";
             this.txtCurso.Size = new System.Drawing.Size(214, 24);
             this.txtCurso.TabIndex = 25;
@@ -201,7 +203,7 @@
             // txtTutor
             // 
             this.txtTutor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTutor.Location = new System.Drawing.Point(529, 210);
+            this.txtTutor.Location = new System.Drawing.Point(565, 208);
             this.txtTutor.Name = "txtTutor";
             this.txtTutor.Size = new System.Drawing.Size(214, 24);
             this.txtTutor.TabIndex = 24;
@@ -209,7 +211,7 @@
             // txtApellidos
             // 
             this.txtApellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellidos.Location = new System.Drawing.Point(529, 166);
+            this.txtApellidos.Location = new System.Drawing.Point(565, 164);
             this.txtApellidos.Name = "txtApellidos";
             this.txtApellidos.Size = new System.Drawing.Size(214, 24);
             this.txtApellidos.TabIndex = 23;
@@ -217,7 +219,7 @@
             // txtNombre
             // 
             this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.Location = new System.Drawing.Point(529, 118);
+            this.txtNombre.Location = new System.Drawing.Point(565, 116);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(214, 24);
             this.txtNombre.TabIndex = 22;
@@ -225,7 +227,7 @@
             // txtDni
             // 
             this.txtDni.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDni.Location = new System.Drawing.Point(529, 80);
+            this.txtDni.Location = new System.Drawing.Point(565, 78);
             this.txtDni.Name = "txtDni";
             this.txtDni.Size = new System.Drawing.Size(214, 24);
             this.txtDni.TabIndex = 21;
@@ -234,7 +236,7 @@
             // 
             this.txtCodigo.Enabled = false;
             this.txtCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCodigo.Location = new System.Drawing.Point(529, 36);
+            this.txtCodigo.Location = new System.Drawing.Point(565, 34);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(214, 24);
             this.txtCodigo.TabIndex = 20;
@@ -249,11 +251,33 @@
             this.btnGuardar.UseVisualStyleBackColor = true;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
+            // lblBuscar
+            // 
+            this.lblBuscar.AutoSize = true;
+            this.lblBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBuscar.Location = new System.Drawing.Point(68, 143);
+            this.lblBuscar.Name = "lblBuscar";
+            this.lblBuscar.Size = new System.Drawing.Size(204, 20);
+            this.lblBuscar.TabIndex = 40;
+            this.lblBuscar.Text = "Ingrese codigo del alumno";
+            // 
+            // lblTitulo
+            // 
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Location = new System.Drawing.Point(58, 36);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(214, 25);
+            this.lblTitulo.TabIndex = 41;
+            this.lblTitulo.Text = "MODIFICAR ALUMNO";
+            // 
             // frmModificar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(818, 450);
+            this.Controls.Add(this.lblTitulo);
+            this.Controls.Add(this.lblBuscar);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.lblNota);
             this.Controls.Add(this.lblSeccion);
@@ -306,5 +330,7 @@
         private System.Windows.Forms.TextBox txtDni;
         private System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.Label lblBuscar;
+        private System.Windows.Forms.Label lblTitulo;
     }
 }

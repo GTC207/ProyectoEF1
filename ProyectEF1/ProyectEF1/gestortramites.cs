@@ -44,6 +44,12 @@ namespace ProyectEF1
                     }
                 }
             }
+
+        public void GuardarTodo()
+        {
+            GuardarTexto("tramites.txt");
+            GuardarBinario("tramites.bin");
+        }
         public string Formateo(string nl)
         {
             int espacio = nl.IndexOf(' ');

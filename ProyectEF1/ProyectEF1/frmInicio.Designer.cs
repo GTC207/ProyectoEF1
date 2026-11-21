@@ -36,7 +36,6 @@
             this.btnMostrar = new System.Windows.Forms.Button();
             this.btnMayorNota = new System.Windows.Forms.Button();
             this.btnImprimir = new System.Windows.Forms.Button();
-            this.btnArchivos = new System.Windows.Forms.Button();
             this.pnl_Menu = new System.Windows.Forms.Panel();
             this.pnl_Menu.SuspendLayout();
             this.SuspendLayout();
@@ -126,21 +125,11 @@
             this.btnImprimir.TabIndex = 7;
             this.btnImprimir.Text = "Impresion de tramite";
             this.btnImprimir.UseVisualStyleBackColor = true;
-            // 
-            // btnArchivos
-            // 
-            this.btnArchivos.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnArchivos.Location = new System.Drawing.Point(12, 598);
-            this.btnArchivos.Name = "btnArchivos";
-            this.btnArchivos.Size = new System.Drawing.Size(195, 50);
-            this.btnArchivos.TabIndex = 8;
-            this.btnArchivos.Text = "Archivos";
-            this.btnArchivos.UseVisualStyleBackColor = true;
+            this.btnImprimir.Click += new System.EventHandler(this.btnImprimir_Click);
             // 
             // pnl_Menu
             // 
             this.pnl_Menu.BackColor = System.Drawing.Color.LimeGreen;
-            this.pnl_Menu.Controls.Add(this.btnArchivos);
             this.pnl_Menu.Controls.Add(this.btnIncio);
             this.pnl_Menu.Controls.Add(this.btnImprimir);
             this.pnl_Menu.Controls.Add(this.btnRegistrar);
@@ -181,7 +170,6 @@
         private System.Windows.Forms.Button btnMostrar;
         private System.Windows.Forms.Button btnMayorNota;
         private System.Windows.Forms.Button btnImprimir;
-        private System.Windows.Forms.Button btnArchivos;
         private System.Windows.Forms.Panel pnl_Menu;
     }
 }

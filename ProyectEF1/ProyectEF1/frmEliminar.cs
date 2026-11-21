@@ -44,6 +44,7 @@ namespace ProyectEF1
             if (respuesta == DialogResult.Yes) 
             {
                 gestor.Eliminar(indice);
+                gestor.GuardarTodo();
                 MessageBox.Show("Registro eliminado");
                 MostrarDatos();
             }

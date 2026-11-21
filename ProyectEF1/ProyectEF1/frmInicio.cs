@@ -46,5 +46,17 @@ namespace ProyectEF1
             frmEliminar f = new frmEliminar(gestor);
             f.ShowDialog();
         }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            frmModificar f = new frmModificar(gestor);
+            f.ShowDialog();
+        }
+
+        private void btnMayorNota_Click(object sender, EventArgs e)
+        {
+            frmMayorNota f = new frmMayorNota(gestor);
+            f.ShowDialog();
+        }
     }
 }

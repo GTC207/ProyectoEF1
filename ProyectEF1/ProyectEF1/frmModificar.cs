@@ -92,7 +92,15 @@ namespace ProyectEF1
                 return;
             }
 
+            string nombre = char.ToUpper(txtNombre.Text[0]) + txtNombre.Text.Substring(1);
+            string curso = char.ToUpper(txtCurso.Text[0]) + txtCurso.Text.Substring(1);
+            string apellidos = gestor.Formateo(txtApellidos.Text);
+            string tutor = gestor.Formateo(txtTutor.Text);
 
+            gestor.Tramites[indice] = new tramites(txtCodigo.Text, txtDni.Text, nombre, apellidos, tutor, txtGrado.Text.ToLower(), txtSeccion.Text.ToUpper(), nota, curso);
+
+            MessageBox.Show("Registro modificado");
+            indice = -1;
         }
     }
 }

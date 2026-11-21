@@ -82,6 +82,7 @@
             this.btnModificar.TabIndex = 3;
             this.btnModificar.Text = "Modificar registro";
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // btnEliminar
             // 
@@ -114,6 +115,7 @@
             this.btnMayorNota.TabIndex = 6;
             this.btnMayorNota.Text = "Mayor nota";
             this.btnMayorNota.UseVisualStyleBackColor = true;
+            this.btnMayorNota.Click += new System.EventHandler(this.btnMayorNota_Click);
             // 
             // btnImprimir
             // 

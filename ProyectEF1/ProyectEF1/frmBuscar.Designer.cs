@@ -44,6 +44,7 @@
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblCriterio = new System.Windows.Forms.Label();
             this.lblBuscar = new System.Windows.Forms.Label();
+            this.btnLimpiar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvResultados)).BeginInit();
             this.SuspendLayout();
             // 
@@ -59,24 +60,27 @@
             "Tutor",
             "Curso",
             "Nota"});
-            this.cmbCriterio.Location = new System.Drawing.Point(302, 69);
+            this.cmbCriterio.Location = new System.Drawing.Point(226, 56);
+            this.cmbCriterio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbCriterio.Name = "cmbCriterio";
-            this.cmbCriterio.Size = new System.Drawing.Size(199, 28);
+            this.cmbCriterio.Size = new System.Drawing.Size(150, 24);
             this.cmbCriterio.TabIndex = 0;
             // 
             // txtBuscar
             // 
             this.txtBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBuscar.Location = new System.Drawing.Point(302, 128);
+            this.txtBuscar.Location = new System.Drawing.Point(226, 104);
+            this.txtBuscar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(199, 26);
+            this.txtBuscar.Size = new System.Drawing.Size(150, 23);
             this.txtBuscar.TabIndex = 1;
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(733, 101);
+            this.btnBuscar.Location = new System.Drawing.Point(435, 68);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(117, 49);
+            this.btnBuscar.Size = new System.Drawing.Size(88, 40);
             this.btnBuscar.TabIndex = 2;
             this.btnBuscar.Text = "BUSCAR";
             this.btnBuscar.UseVisualStyleBackColor = true;
@@ -96,12 +100,13 @@
             this.Grado,
             this.Seccion,
             this.Nota});
-            this.dgvResultados.Location = new System.Drawing.Point(12, 215);
+            this.dgvResultados.Location = new System.Drawing.Point(9, 175);
+            this.dgvResultados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvResultados.Name = "dgvResultados";
             this.dgvResultados.ReadOnly = true;
             this.dgvResultados.RowHeadersWidth = 51;
             this.dgvResultados.RowTemplate.Height = 24;
-            this.dgvResultados.Size = new System.Drawing.Size(1178, 190);
+            this.dgvResultados.Size = new System.Drawing.Size(884, 154);
             this.dgvResultados.TabIndex = 3;
             // 
             // Codigo
@@ -180,9 +185,10 @@
             // 
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(450, 9);
+            this.lblTitulo.Location = new System.Drawing.Point(338, 7);
+            this.lblTitulo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(232, 29);
+            this.lblTitulo.Size = new System.Drawing.Size(185, 24);
             this.lblTitulo.TabIndex = 4;
             this.lblTitulo.Text = "BUSCAR ALUMNO";
             // 
@@ -190,9 +196,10 @@
             // 
             this.lblCriterio.AutoSize = true;
             this.lblCriterio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCriterio.Location = new System.Drawing.Point(61, 72);
+            this.lblCriterio.Location = new System.Drawing.Point(46, 58);
+            this.lblCriterio.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCriterio.Name = "lblCriterio";
-            this.lblCriterio.Size = new System.Drawing.Size(154, 25);
+            this.lblCriterio.Size = new System.Drawing.Size(124, 20);
             this.lblCriterio.TabIndex = 5;
             this.lblCriterio.Text = "Criterio a buscar";
             // 
@@ -200,17 +207,30 @@
             // 
             this.lblBuscar.AutoSize = true;
             this.lblBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBuscar.Location = new System.Drawing.Point(61, 127);
+            this.lblBuscar.Location = new System.Drawing.Point(46, 103);
+            this.lblBuscar.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblBuscar.Name = "lblBuscar";
-            this.lblBuscar.Size = new System.Drawing.Size(224, 25);
+            this.lblBuscar.Size = new System.Drawing.Size(181, 20);
             this.lblBuscar.TabIndex = 6;
             this.lblBuscar.Text = "Ingrese el valor a buscar";
             // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.Location = new System.Drawing.Point(779, 122);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(88, 40);
+            this.btnLimpiar.TabIndex = 7;
+            this.btnLimpiar.Text = "LIMPIAR";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmBuscar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1204, 417);
+            this.ClientSize = new System.Drawing.Size(903, 339);
+            this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.lblBuscar);
             this.Controls.Add(this.lblCriterio);
             this.Controls.Add(this.lblTitulo);
@@ -218,6 +238,7 @@
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.cmbCriterio);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmBuscar";
             this.Text = "Buscar";
             ((System.ComponentModel.ISupportInitialize)(this.dgvResultados)).EndInit();
@@ -244,5 +265,6 @@
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label lblCriterio;
         private System.Windows.Forms.Label lblBuscar;
+        private System.Windows.Forms.Button btnLimpiar;
     }
 }

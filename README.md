@@ -31,6 +31,7 @@ Sistema con interfaz gráfica (Windows Forms) desarrollado en C# para administra
 ## Estructura del proyecto
 
 ProyectEF1/
+
 ├── tramites.cs // Datos del alumno
 ├── gestortramites.cs // Lógica del sistema (CRUD, búsqueda, ordenamiento)
 ├── ArchivoTramites.cs // Guardado y lectura en archivo

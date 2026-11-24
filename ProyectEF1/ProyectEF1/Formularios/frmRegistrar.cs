@@ -97,5 +97,10 @@ namespace ProyectEF1
                 MessageBox.Show("Capacidad máxima alcanzada");
             }
         }
+
+        private void lblCodigo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -43,5 +43,10 @@ namespace ProyectEF1
             "Confiamos en que continuará desarrollando sus capacidades, alcanzando nuevas metas " +
             "y superándose día a día.";
         }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

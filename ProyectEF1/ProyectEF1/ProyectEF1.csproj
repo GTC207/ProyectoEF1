@@ -46,90 +46,90 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArchivoTramites.cs" />
-    <Compile Include="frmBuscar.cs">
+    <Compile Include="Tramite\ArchivoTramites.cs" />
+    <Compile Include="Formularios\frmBuscar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmBuscar.Designer.cs">
+    <Compile Include="Formularios\frmBuscar.Designer.cs">
       <DependentUpon>frmBuscar.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmEliminar.cs">
+    <Compile Include="Formularios\frmEliminar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmEliminar.Designer.cs">
+    <Compile Include="Formularios\frmEliminar.Designer.cs">
       <DependentUpon>frmEliminar.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmImpresion.cs">
+    <Compile Include="Formularios\frmImpresion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmImpresion.Designer.cs">
+    <Compile Include="Formularios\frmImpresion.Designer.cs">
       <DependentUpon>frmImpresion.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmInicio.cs">
+    <Compile Include="Formularios\frmInicio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmInicio.Designer.cs">
+    <Compile Include="Formularios\frmInicio.Designer.cs">
       <DependentUpon>frmInicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLista.cs">
+    <Compile Include="Formularios\frmLista.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLista.Designer.cs">
+    <Compile Include="Formularios\frmLista.Designer.cs">
       <DependentUpon>frmLista.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLogin.cs">
+    <Compile Include="Formularios\frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLogin.Designer.cs">
+    <Compile Include="Formularios\frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmMayorNota.cs">
+    <Compile Include="Formularios\frmMayorNota.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMayorNota.Designer.cs">
+    <Compile Include="Formularios\frmMayorNota.Designer.cs">
       <DependentUpon>frmMayorNota.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmModificar.cs">
+    <Compile Include="Formularios\frmModificar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmModificar.Designer.cs">
+    <Compile Include="Formularios\frmModificar.Designer.cs">
       <DependentUpon>frmModificar.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmRegistrar.cs">
+    <Compile Include="Formularios\frmRegistrar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmRegistrar.Designer.cs">
+    <Compile Include="Formularios\frmRegistrar.Designer.cs">
       <DependentUpon>frmRegistrar.cs</DependentUpon>
     </Compile>
-    <Compile Include="gestortramites.cs" />
+    <Compile Include="Tramite\gestortramites.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="tramites.cs" />
-    <EmbeddedResource Include="frmBuscar.resx">
+    <Compile Include="Tramite\tramites.cs" />
+    <EmbeddedResource Include="Formularios\frmBuscar.resx">
       <DependentUpon>frmBuscar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmEliminar.resx">
+    <EmbeddedResource Include="Formularios\frmEliminar.resx">
       <DependentUpon>frmEliminar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmImpresion.resx">
+    <EmbeddedResource Include="Formularios\frmImpresion.resx">
       <DependentUpon>frmImpresion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmInicio.resx">
+    <EmbeddedResource Include="Formularios\frmInicio.resx">
       <DependentUpon>frmInicio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmLista.resx">
+    <EmbeddedResource Include="Formularios\frmLista.resx">
       <DependentUpon>frmLista.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmLogin.resx">
+    <EmbeddedResource Include="Formularios\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmMayorNota.resx">
+    <EmbeddedResource Include="Formularios\frmMayorNota.resx">
       <DependentUpon>frmMayorNota.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmModificar.resx">
+    <EmbeddedResource Include="Formularios\frmModificar.resx">
       <DependentUpon>frmModificar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmRegistrar.resx">
+    <EmbeddedResource Include="Formularios\frmRegistrar.resx">
       <DependentUpon>frmRegistrar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -169,21 +169,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\a0ccaf3c69539dcf0d7f65570b320cd1 %284%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Collage de actividades escolares infantiles.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Aula de inicial con bienvenida colorida.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\f38ac94c7e676794411017ac4dd6f22d.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\14cee95032d680368776e540abd03750.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\6935c14e2186c6f2a068a54268fb69ba-removebg-preview.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

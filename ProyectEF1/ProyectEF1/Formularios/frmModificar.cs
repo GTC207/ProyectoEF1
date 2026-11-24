@@ -102,5 +102,15 @@ namespace ProyectEF1
             MessageBox.Show("Registro modificado");
             indice = -1;
         }
+
+        private void lblCodigo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblDni_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

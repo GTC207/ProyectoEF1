@@ -41,6 +41,8 @@
             this.btnEliminar = new System.Windows.Forms.Button();
             this.lblEliminar = new System.Windows.Forms.Label();
             this.lblTitulo = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlumnos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,7 +60,7 @@
             this.Grado,
             this.Seccion,
             this.Nota});
-            this.dgvAlumnos.Location = new System.Drawing.Point(12, 235);
+            this.dgvAlumnos.Location = new System.Drawing.Point(12, 248);
             this.dgvAlumnos.Name = "dgvAlumnos";
             this.dgvAlumnos.ReadOnly = true;
             this.dgvAlumnos.RowHeadersWidth = 51;
@@ -141,40 +143,62 @@
             // 
             // btnEliminar
             // 
+            this.btnEliminar.BackColor = System.Drawing.Color.Khaki;
             this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(741, 147);
+            this.btnEliminar.Location = new System.Drawing.Point(791, 154);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(137, 75);
             this.btnEliminar.TabIndex = 5;
             this.btnEliminar.Text = "ELIMINAR";
-            this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.UseVisualStyleBackColor = false;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // lblEliminar
             // 
             this.lblEliminar.AutoSize = true;
-            this.lblEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEliminar.Location = new System.Drawing.Point(39, 193);
+            this.lblEliminar.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.lblEliminar.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEliminar.Location = new System.Drawing.Point(12, 201);
             this.lblEliminar.Name = "lblEliminar";
-            this.lblEliminar.Size = new System.Drawing.Size(368, 29);
+            this.lblEliminar.Size = new System.Drawing.Size(442, 31);
             this.lblEliminar.TabIndex = 6;
             this.lblEliminar.Text = "Seleccione un alumno a eliminar:";
             // 
             // lblTitulo
             // 
             this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(396, 48);
+            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Location = new System.Drawing.Point(366, 33);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(335, 29);
+            this.lblTitulo.Size = new System.Drawing.Size(416, 36);
             this.lblTitulo.TabIndex = 7;
             this.lblTitulo.Text = "ELIMINACION DE ALUMNO";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Gold;
+            this.panel2.Location = new System.Drawing.Point(2, 72);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1211, 10);
+            this.panel2.TabIndex = 12;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Maroon;
+            this.panel1.Location = new System.Drawing.Point(2, 75);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1211, 10);
+            this.panel1.TabIndex = 11;
             // 
             // frmEliminar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.ClientSize = new System.Drawing.Size(1207, 450);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.lblEliminar);
             this.Controls.Add(this.btnEliminar);
@@ -202,5 +226,7 @@
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Label lblEliminar;
         private System.Windows.Forms.Label lblTitulo;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel1;
     }
 }

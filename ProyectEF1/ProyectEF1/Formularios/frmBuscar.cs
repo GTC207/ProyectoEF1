@@ -87,23 +87,6 @@ namespace ProyectEF1
             txtBuscar.Focus();
         
         }
-        public int Factorial(int n)
-        {
-            if (n <= 1)
-                return 1;                      // caso base
-            return n * Factorial(n - 1);       // caso recursivo
-        }
-        public int Potencia(int basep, int exp)
-        {
-            if (exp == 0)
-                return 1;
-            return basep * Potencia(basep, exp - 1);
-        }
-        public int Sumatoria(int n)
-        {
-            if (n == 0)
-                return 0;
-            return n + Sumatoria(n - 1);
-        }
+
     }
     }

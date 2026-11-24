@@ -41,6 +41,8 @@
             this.lblTitulo = new System.Windows.Forms.Label();
             this.btnBurbuja = new System.Windows.Forms.Button();
             this.btnSeleccion = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAlumnos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -141,15 +143,16 @@
             // lblTitulo
             // 
             this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Tai Le", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(443, 58);
+            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Location = new System.Drawing.Point(431, 54);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(282, 31);
+            this.lblTitulo.Size = new System.Drawing.Size(353, 39);
             this.lblTitulo.TabIndex = 1;
             this.lblTitulo.Text = "LISTA DE ESTUDIANTES";
             // 
             // btnBurbuja
             // 
+            this.btnBurbuja.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBurbuja.Location = new System.Drawing.Point(97, 461);
             this.btnBurbuja.Name = "btnBurbuja";
             this.btnBurbuja.Size = new System.Drawing.Size(284, 63);
@@ -160,6 +163,7 @@
             // 
             // btnSeleccion
             // 
+            this.btnSeleccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSeleccion.Location = new System.Drawing.Point(760, 461);
             this.btnSeleccion.Name = "btnSeleccion";
             this.btnSeleccion.Size = new System.Drawing.Size(284, 63);
@@ -168,11 +172,30 @@
             this.btnSeleccion.UseVisualStyleBackColor = true;
             this.btnSeleccion.Click += new System.EventHandler(this.btnSeleccion_Click);
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Gold;
+            this.panel2.Location = new System.Drawing.Point(2, 96);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1211, 10);
+            this.panel2.TabIndex = 12;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Maroon;
+            this.panel1.Location = new System.Drawing.Point(2, 99);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1211, 10);
+            this.panel1.TabIndex = 11;
+            // 
             // frmLista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.ClientSize = new System.Drawing.Size(1200, 535);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnSeleccion);
             this.Controls.Add(this.btnBurbuja);
             this.Controls.Add(this.lblTitulo);
@@ -200,5 +223,7 @@
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Button btnBurbuja;
         private System.Windows.Forms.Button btnSeleccion;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel1;
     }
 }

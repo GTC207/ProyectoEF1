@@ -25,7 +25,7 @@ namespace ProyectEF1
             for(int i = 0; i < gestor.cantidad; i++)
             {
                 tramites t = gestor.Tramites[i];
-                dgvAlumnos.Rows.Add(t.CodigoAlumno, t.NombreAlumno, t.ApellidosAlumno, t.DNI, t.TutorProfesor, t.TutorProfesor, t.Curso, t.Grado, t.Seccion, t.Notas);
+                dgvAlumnos.Rows.Add(t.CodigoAlumno, t.NombreAlumno, t.ApellidosAlumno, t.DNI, t.TutorProfesor, t.Curso, t.Grado, t.Seccion, t.Notas);
             }
         }
         private void btnEliminar_Click(object sender, EventArgs e)

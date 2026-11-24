@@ -39,6 +39,8 @@
             this.Seccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nota = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lblTitulo = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMayor)).BeginInit();
             this.SuspendLayout();
             // 
@@ -139,18 +141,37 @@
             // lblTitulo
             // 
             this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(522, 42);
+            this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Location = new System.Drawing.Point(496, 20);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(184, 29);
+            this.lblTitulo.Size = new System.Drawing.Size(206, 31);
             this.lblTitulo.TabIndex = 2;
             this.lblTitulo.Text = "MAYOR NOTA";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Gold;
+            this.panel2.Location = new System.Drawing.Point(3, 54);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1211, 10);
+            this.panel2.TabIndex = 12;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Maroon;
+            this.panel1.Location = new System.Drawing.Point(3, 57);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1211, 10);
+            this.panel1.TabIndex = 11;
             // 
             // frmMayorNota
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.ClientSize = new System.Drawing.Size(1207, 450);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.dgvMayor);
             this.Name = "frmMayorNota";
@@ -174,5 +195,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Seccion;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nota;
         private System.Windows.Forms.Label lblTitulo;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel1;
     }
 }

@@ -79,5 +79,11 @@ namespace ProyectEF1
         {
             Application.Exit();
         }
+
+        private void btnIncio_Click(object sender, EventArgs e)
+        {
+            Application.OpenForms["frmLogin"].Show();
+            this.Hide();
+        }
     }
 }

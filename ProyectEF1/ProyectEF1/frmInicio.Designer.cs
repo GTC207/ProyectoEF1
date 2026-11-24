@@ -37,23 +37,28 @@
             this.btnMayorNota = new System.Windows.Forms.Button();
             this.btnImprimir = new System.Windows.Forms.Button();
             this.pnl_Menu = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnl_Menu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnIncio
             // 
             this.btnIncio.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIncio.Location = new System.Drawing.Point(12, 148);
+            this.btnIncio.Location = new System.Drawing.Point(12, 553);
             this.btnIncio.Name = "btnIncio";
             this.btnIncio.Size = new System.Drawing.Size(195, 50);
             this.btnIncio.TabIndex = 0;
-            this.btnIncio.Text = "Incio";
+            this.btnIncio.Text = "Regresar";
             this.btnIncio.UseVisualStyleBackColor = true;
+            this.btnIncio.Click += new System.EventHandler(this.btnIncio_Click);
             // 
             // btnRegistrar
             // 
             this.btnRegistrar.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(12, 204);
+            this.btnRegistrar.Location = new System.Drawing.Point(12, 21);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(195, 50);
             this.btnRegistrar.TabIndex = 1;
@@ -64,7 +69,7 @@
             // btnBuscar
             // 
             this.btnBuscar.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBuscar.Location = new System.Drawing.Point(12, 317);
+            this.btnBuscar.Location = new System.Drawing.Point(12, 157);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(195, 50);
             this.btnBuscar.TabIndex = 2;
@@ -75,7 +80,7 @@
             // btnModificar
             // 
             this.btnModificar.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.Location = new System.Drawing.Point(12, 373);
+            this.btnModificar.Location = new System.Drawing.Point(12, 227);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(195, 50);
             this.btnModificar.TabIndex = 3;
@@ -86,7 +91,7 @@
             // btnEliminar
             // 
             this.btnEliminar.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(12, 429);
+            this.btnEliminar.Location = new System.Drawing.Point(12, 301);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(195, 50);
             this.btnEliminar.TabIndex = 4;
@@ -97,7 +102,7 @@
             // btnMostrar
             // 
             this.btnMostrar.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMostrar.Location = new System.Drawing.Point(12, 260);
+            this.btnMostrar.Location = new System.Drawing.Point(12, 92);
             this.btnMostrar.Name = "btnMostrar";
             this.btnMostrar.Size = new System.Drawing.Size(195, 50);
             this.btnMostrar.TabIndex = 5;
@@ -108,7 +113,7 @@
             // btnMayorNota
             // 
             this.btnMayorNota.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMayorNota.Location = new System.Drawing.Point(12, 485);
+            this.btnMayorNota.Location = new System.Drawing.Point(12, 372);
             this.btnMayorNota.Name = "btnMayorNota";
             this.btnMayorNota.Size = new System.Drawing.Size(195, 50);
             this.btnMayorNota.TabIndex = 6;
@@ -119,7 +124,7 @@
             // btnImprimir
             // 
             this.btnImprimir.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnImprimir.Location = new System.Drawing.Point(12, 542);
+            this.btnImprimir.Location = new System.Drawing.Point(12, 440);
             this.btnImprimir.Name = "btnImprimir";
             this.btnImprimir.Size = new System.Drawing.Size(195, 50);
             this.btnImprimir.TabIndex = 7;
@@ -145,11 +150,31 @@
             this.pnl_Menu.TabIndex = 9;
             this.pnl_Menu.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_Menu_Paint);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::ProyectEF1.Properties.Resources._14cee95032d680368776e540abd03750;
+            this.pictureBox2.Location = new System.Drawing.Point(219, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(564, 34);
+            this.pictureBox2.TabIndex = 11;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::ProyectEF1.Properties.Resources.Aula_de_inicial_con_bienvenida_colorida;
+            this.pictureBox1.Location = new System.Drawing.Point(219, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(875, 661);
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1082, 661);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pnl_Menu);
             this.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MinimumSize = new System.Drawing.Size(1000, 700);
@@ -158,6 +183,8 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmInicio_FormClosed);
             this.Load += new System.EventHandler(this.frmInicio_Load);
             this.pnl_Menu.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -173,6 +200,8 @@
         private System.Windows.Forms.Button btnMayorNota;
         private System.Windows.Forms.Button btnImprimir;
         private System.Windows.Forms.Panel pnl_Menu;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 

@@ -69,5 +69,15 @@ namespace ProyectEF1
             frmImpresion f = new frmImpresion(gestor);
             f.ShowDialog();
         }
+
+        private void frmInicio_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmInicio_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

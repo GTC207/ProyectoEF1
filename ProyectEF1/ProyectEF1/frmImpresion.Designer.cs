@@ -39,9 +39,10 @@
             // 
             // txtCodigo
             // 
-            this.txtCodigo.Location = new System.Drawing.Point(328, 145);
+            this.txtCodigo.Location = new System.Drawing.Point(246, 118);
+            this.txtCodigo.Margin = new System.Windows.Forms.Padding(2);
             this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(211, 22);
+            this.txtCodigo.Size = new System.Drawing.Size(159, 20);
             this.txtCodigo.TabIndex = 0;
             // 
             // contextMenuStrip1
@@ -52,9 +53,10 @@
             // 
             // btnGenerar
             // 
-            this.btnGenerar.Location = new System.Drawing.Point(591, 137);
+            this.btnGenerar.Location = new System.Drawing.Point(443, 111);
+            this.btnGenerar.Margin = new System.Windows.Forms.Padding(2);
             this.btnGenerar.Name = "btnGenerar";
-            this.btnGenerar.Size = new System.Drawing.Size(229, 40);
+            this.btnGenerar.Size = new System.Drawing.Size(172, 32);
             this.btnGenerar.TabIndex = 2;
             this.btnGenerar.Text = "GENERAR TRAMITE";
             this.btnGenerar.UseVisualStyleBackColor = true;
@@ -63,21 +65,23 @@
             // txtTramite
             // 
             this.txtTramite.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTramite.Location = new System.Drawing.Point(100, 188);
+            this.txtTramite.Location = new System.Drawing.Point(75, 153);
+            this.txtTramite.Margin = new System.Windows.Forms.Padding(2);
             this.txtTramite.Multiline = true;
             this.txtTramite.Name = "txtTramite";
             this.txtTramite.ReadOnly = true;
             this.txtTramite.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtTramite.Size = new System.Drawing.Size(769, 342);
+            this.txtTramite.Size = new System.Drawing.Size(578, 279);
             this.txtTramite.TabIndex = 3;
             // 
             // lblTitulo
             // 
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(332, 39);
+            this.lblTitulo.Location = new System.Drawing.Point(249, 32);
+            this.lblTitulo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(275, 29);
+            this.lblTitulo.Size = new System.Drawing.Size(217, 24);
             this.lblTitulo.TabIndex = 4;
             this.lblTitulo.Text = "Tramite del estudiante";
             // 
@@ -85,22 +89,24 @@
             // 
             this.lblCodigo.AutoSize = true;
             this.lblCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCodigo.Location = new System.Drawing.Point(35, 142);
+            this.lblCodigo.Location = new System.Drawing.Point(26, 115);
+            this.lblCodigo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCodigo.Name = "lblCodigo";
-            this.lblCodigo.Size = new System.Drawing.Size(260, 25);
+            this.lblCodigo.Size = new System.Drawing.Size(211, 20);
             this.lblCodigo.TabIndex = 5;
             this.lblCodigo.Text = "Ingrese el codigo del alumno";
             // 
             // frmImpresion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(965, 542);
+            this.ClientSize = new System.Drawing.Size(724, 440);
             this.Controls.Add(this.lblCodigo);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.txtTramite);
             this.Controls.Add(this.btnGenerar);
             this.Controls.Add(this.txtCodigo);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmImpresion";
             this.Text = "frmImpresion";
             this.ResumeLayout(false);

@@ -11,52 +11,99 @@ using System.Windows.Forms;
 
 namespace ProyectEF1
 {
-    public partial class frmBuscar : Form
-    {
-        gestortramites gestor;
-        public frmBuscar(gestortramites g)
+        public partial class frmBuscar : Form
         {
-            InitializeComponent();
-            gestor = g;
-        }
+            gestortramites gestor;
 
-        private void btnBuscar_Click(object sender, EventArgs e)
-        {
-            if(cmbCriterio.SelectedIndex==-1 || txtBuscar.Text == "")
+            public frmBuscar(gestortramites g)
             {
-                MessageBox.Show("Elija un criterio y escriba que buscar");
-                return;
+                InitializeComponent();
+                gestor = g;
             }
 
-            dgvResultados.Rows.Clear();
-            string texto = txtBuscar.Text.ToLower();
-            int encontrados = 0;
-
-            for(int i = 0; i < gestor.cantidad; i++)
+            // Método recursivo: revisa el alumno de la posición i y se llama con la siguiente.
+            // Devuelve cuántos alumnos coinciden.
+            private int BuscarRecursivo(int i, string texto, int criterio, double nota)
             {
+                if (i >= gestor.cantidad)      // caso base: ya se revisaron todos
+                    return 0;
+
                 tramites t = gestor.Tramites[i];
                 bool coincide = false;
-                switch (cmbCriterio.SelectedIndex)
+
+                switch (criterio)
                 {
                     case 0: coincide = t.CodigoAlumno.ToLower().Contains(texto); break;
                     case 1: coincide = t.NombreAlumno.ToLower().Contains(texto); break;
-                    case 2: coincide=t.ApellidosAlumno.ToLower().Contains(texto); break;
+                    case 2: coincide = t.ApellidosAlumno.ToLower().Contains(texto); break;
                     case 3: coincide = t.TutorProfesor.ToLower().Contains(texto); break;
                     case 4: coincide = t.Curso.ToLower().Contains(texto); break;
-                    case 5: coincide = t.Notas == Convert.ToDouble(txtBuscar.Text); break;
+                    case 5: coincide = t.Notas == nota; break;
                 }
 
+                int suma = 0;
                 if (coincide)
                 {
                     dgvResultados.Rows.Add(t.CodigoAlumno, t.NombreAlumno, t.ApellidosAlumno, t.DNI, t.TutorProfesor, t.Curso, t.Grado, t.Seccion, t.Notas);
-                    encontrados++;
+                    suma = 1;
                 }
 
-                if(encontrados == 0)
+                return suma + BuscarRecursivo(i + 1, texto, criterio, nota);   // caso recursivo
+            }
+
+            private void btnBuscar_Click(object sender, EventArgs e)
+            {
+                if (cmbCriterio.SelectedIndex == -1 || txtBuscar.Text == "")
+                {
+                    MessageBox.Show("Elija un criterio y escriba que buscar");
+                    return;
+                }
+
+                double nota = 0;
+                if (cmbCriterio.SelectedIndex == 5 && !double.TryParse(txtBuscar.Text, out nota))
+                {
+                    MessageBox.Show("Ingrese una nota válida");
+                    txtBuscar.Focus();
+                    return;
+                }
+
+                dgvResultados.Rows.Clear();
+                string texto = txtBuscar.Text.ToLower();
+
+                int encontrados = BuscarRecursivo(0, texto, cmbCriterio.SelectedIndex, nota);
+
+                if (encontrados == 0)
                 {
                     MessageBox.Show("No se encontraron resultados");
                 }
             }
+
+        private void button1_Click(object sender, EventArgs e)
+        
+        {
+            txtBuscar.Clear();
+            cmbCriterio.SelectedIndex = -1;
+            dgvResultados.Rows.Clear();
+            txtBuscar.Focus();
+        
+        }
+        public int Factorial(int n)
+        {
+            if (n <= 1)
+                return 1;                      // caso base
+            return n * Factorial(n - 1);       // caso recursivo
+        }
+        public int Potencia(int basep, int exp)
+        {
+            if (exp == 0)
+                return 1;
+            return basep * Potencia(basep, exp - 1);
+        }
+        public int Sumatoria(int n)
+        {
+            if (n == 0)
+                return 0;
+            return n + Sumatoria(n - 1);
         }
     }
-}
+    }

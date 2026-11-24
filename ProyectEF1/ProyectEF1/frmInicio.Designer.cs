@@ -141,20 +141,22 @@
             this.pnl_Menu.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnl_Menu.Location = new System.Drawing.Point(0, 0);
             this.pnl_Menu.Name = "pnl_Menu";
-            this.pnl_Menu.Size = new System.Drawing.Size(220, 653);
+            this.pnl_Menu.Size = new System.Drawing.Size(220, 661);
             this.pnl_Menu.TabIndex = 9;
             this.pnl_Menu.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_Menu_Paint);
             // 
             // frmInicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1082, 653);
+            this.ClientSize = new System.Drawing.Size(1082, 661);
             this.Controls.Add(this.pnl_Menu);
             this.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MinimumSize = new System.Drawing.Size(1000, 700);
             this.Name = "frmInicio";
             this.Text = "Estrellitas de fatima";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmInicio_FormClosed);
+            this.Load += new System.EventHandler(this.frmInicio_Load);
             this.pnl_Menu.ResumeLayout(false);
             this.ResumeLayout(false);
 

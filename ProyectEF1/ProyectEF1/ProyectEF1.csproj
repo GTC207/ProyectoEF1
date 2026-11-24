@@ -77,6 +77,12 @@
     <Compile Include="frmLista.Designer.cs">
       <DependentUpon>frmLista.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMayorNota.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +120,9 @@
     <EmbeddedResource Include="frmLista.resx">
       <DependentUpon>frmLista.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMayorNota.resx">
       <DependentUpon>frmMayorNota.cs</DependentUpon>
     </EmbeddedResource>
@@ -131,6 +140,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -144,6 +154,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Retrato ceremonial con estandarte mariano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a0ccaf3c69539dcf0d7f65570b320cd1 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a0ccaf3c69539dcf0d7f65570b320cd1 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a0ccaf3c69539dcf0d7f65570b320cd1 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a0ccaf3c69539dcf0d7f65570b320cd1 %284%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -170,5 +170,20 @@
   <ItemGroup>
     <None Include="Resources\a0ccaf3c69539dcf0d7f65570b320cd1 %284%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Collage de actividades escolares infantiles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aula de inicial con bienvenida colorida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f38ac94c7e676794411017ac4dd6f22d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14cee95032d680368776e540abd03750.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6935c14e2186c6f2a068a54268fb69ba-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

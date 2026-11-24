@@ -1,1 +1,5 @@
 N00516684;70730701;Piero;Torres Casachahua;Henry Bernaola;Matematica;4to;A;5
+N00502755;94087596; leon Francisco;Somosa Somosa;Homero Vela;Ingles;5;D;20
+N00502756;76042435;Jhon Richard;Somosa Espinoza;Homero Velas;Civica;5;D;19
+N00502457;76042457;Raul Ramón;Castillo Velarde;Roberto Franco Gutierrez quispe;Biologia;5to;C;17
+N02457878;75892345;Fernanda Naomi;Espinoza Somosa;Roberto Franco Gutierrez Quispe;Biologia;5;D;19
